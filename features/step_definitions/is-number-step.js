@@ -9,7 +9,7 @@ Given('number is between 0-9', function () {
   this.number = 9;
 });
 
-When('is', function () {
+When('is number?', function () {
   this.actualAnswer = isItNumber(this.number);
 });
 

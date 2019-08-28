@@ -1,6 +1,6 @@
 Feature: Is it number?
 
-  Scenery: Is it number
+  Scenario: Is it number
     Given number is between 0-9
-    When is
+    When is number?
     Then number is 'true'
