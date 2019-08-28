@@ -1,6 +1,7 @@
-Feature: Is it string?
+# language: pt
+Funcionalidade: É um texto?
 
-  Scenario: Is it string
-    Dado string is not number
-    Quando is string?
-    Então string is 'true'
+  Cenário: É um texto
+    Dado que o texto não é um número
+    Quando é texto?
+    Então texto é 'true'

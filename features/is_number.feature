@@ -1,6 +1,7 @@
-Feature: Is it number?
+# language: pt
+Funcionalidade: É um número?
 
-  Scenario: Is it number
-    Given number is between 0-9
-    When is number?
-    Then number is 'true'
+  Cenário: É um número
+    Dado que o número está entre 0-9
+    Quando é número?
+    Então número é 'true'

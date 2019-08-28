@@ -5,15 +5,15 @@ function isItNumber(number) {
     return Number.isInteger(number);
 }
 
-Given('number is between 0-9', function () {
+Given('que o número está entre 0-9', function () {
   this.number = 9;
 });
 
-When('is number?', function () {
+When('é número?', function () {
   this.actualAnswer = isItNumber(this.number);
 });
 
-Then('number is {string}', function (expectedAnswer) {
+Then('número é {string}', function (expectedAnswer) {
   expectedAnswer = new Boolean(expectedAnswer);
   assert.equal(this.actualAnswer, expectedAnswer);
 });
